@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO Do </title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1> My To Do List</h1>
+    </div>
+    <center>
+    <form id="form_task">
+        <div class="todo_input">
+            <section class="task_section">
+                <div class="head" >
+                    Add Task
+                </div>
+                <div class="form-group">
+                    <input type="text" class="fi form_title" placeholder="Enter the Task" required>
+                </div>
+                <div class="form-group">
+                    <textarea type="text" rows="10" class="fi form_description"
+                        placeholder="Enter Description"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="date" class="fi form_deadline"  placeholder="Deadline of the Task" required>
+
+                </div>
+                <div style="text-align: center;">
+                    <button type="submit" class="btn-success btn-block" style="text-align: center;">Add+</button>
+                </div>
+            </section>
+        </div>
+    </form>
+    <br>
+    <br>
+    <section class="no_of_tasks" ></section>
+    <br><br>
+
+    <section class="todo_task_list"></section>
+    </center>   
+    <script type="text/javascript" src="java.js"></script>
+</body>
+
+</html>
